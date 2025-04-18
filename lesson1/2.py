@@ -13,7 +13,7 @@ def _():
 
 @app.cell
 def _(dlt):
-    api_key = "0855a95ce9f748138c76582ae1da7fea"
+    api_key = "?"
     dlt.secrets["api_key"] = api_key
     return (api_key,)
 
