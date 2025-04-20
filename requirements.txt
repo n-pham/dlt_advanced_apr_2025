@@ -1,2 +1,3 @@
 marimo
 dlt[duckdb]
+pandas
