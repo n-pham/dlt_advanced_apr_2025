@@ -2,3 +2,4 @@ marimo
 dlt[duckdb,sql_database]
 pandas
 pymysql
+pyarrow
