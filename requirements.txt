@@ -3,3 +3,4 @@ dlt[duckdb,sql_database]
 pandas
 pymysql
 pyarrow
+notion-client
