@@ -1,3 +1,4 @@
 marimo
-dlt[duckdb]
+dlt[duckdb,sql_database]
 pandas
+pymysql
