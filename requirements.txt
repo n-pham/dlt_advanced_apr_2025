@@ -1,5 +1,5 @@
 marimo
-dlt[duckdb,sql_database]
+dlt[cli,duckdb,sql_database]
 pandas
 pymysql
 pyarrow

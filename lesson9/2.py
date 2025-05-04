@@ -50,4 +50,7 @@ with pipeline.sql_client() as sql_client:
 # 1       61948     orders
 # 2          10   products
 
-# 15m
+# Step extract COMPLETED in 13 minutes
+# Step normalize COMPLETED in 3.49 seconds
+# Step load COMPLETED in 5.19 seconds
+# Step run COMPLETED in 13 minutes and 25.67 seconds

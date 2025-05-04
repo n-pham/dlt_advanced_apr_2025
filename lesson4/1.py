@@ -42,6 +42,19 @@ def _(TDataItems, TTableSchema, dlt):
 
 
 @app.cell
+def _(dlt):
+    @dlt.destination(batch_size=2)
+    def print_sink2(items, table):
+        print(items)
+
+    @dlt.resource
+    def simple_data2():
+        yield [{"id": i} for i in range(6)]
+
+    return
+
+
+@app.cell
 def _(sql_database, text):
 
     def limit_rows(query, table):
